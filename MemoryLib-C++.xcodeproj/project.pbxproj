@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF37AC671C0DB13600BDE602 /* MemoryNedPool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF37AC5C1C0DB13600BDE602 /* MemoryNedPool.cpp */; };
+		EF37AC681C0DB13600BDE602 /* MemoryTrackAlloc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF37AC5E1C0DB13600BDE602 /* MemoryTrackAlloc.cpp */; };
+		EF37AC691C0DB13600BDE602 /* MemoryTracker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF37AC601C0DB13600BDE602 /* MemoryTracker.cpp */; };
+		EF37AC6B1C0DB13600BDE602 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF37AC661C0DB13600BDE602 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EF4CBEB31C0C53F6009849D4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EF37AC5A1C0DB13600BDE602 /* MemoryConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoryConfig.h; sourceTree = "<group>"; };
+		EF37AC5B1C0DB13600BDE602 /* MemoryMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoryMacro.h; sourceTree = "<group>"; };
+		EF37AC5C1C0DB13600BDE602 /* MemoryNedPool.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MemoryNedPool.cpp; sourceTree = "<group>"; };
+		EF37AC5D1C0DB13600BDE602 /* MemoryNedPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoryNedPool.h; sourceTree = "<group>"; };
+		EF37AC5E1C0DB13600BDE602 /* MemoryTrackAlloc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MemoryTrackAlloc.cpp; sourceTree = "<group>"; };
+		EF37AC5F1C0DB13600BDE602 /* MemoryTrackAlloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoryTrackAlloc.h; sourceTree = "<group>"; };
+		EF37AC601C0DB13600BDE602 /* MemoryTracker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MemoryTracker.cpp; sourceTree = "<group>"; };
+		EF37AC611C0DB13600BDE602 /* MemoryTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoryTracker.h; sourceTree = "<group>"; };
+		EF37AC631C0DB13600BDE602 /* malloc.c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = malloc.c.h; sourceTree = "<group>"; };
+		EF37AC641C0DB13600BDE602 /* nedmalloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = nedmalloc.c; sourceTree = "<group>"; };
+		EF37AC651C0DB13600BDE602 /* nedmalloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nedmalloc.h; sourceTree = "<group>"; };
+		EF37AC661C0DB13600BDE602 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EF4CBEB51C0C53F6009849D4 /* MemoryLib-C++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "MemoryLib-C++"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF4CBEB21C0C53F6009849D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF37AC581C0DB13600BDE602 /* MemoryLib */ = {
+			isa = PBXGroup;
+			children = (
+				EF37AC591C0DB13600BDE602 /* core */,
+				EF37AC661C0DB13600BDE602 /* main.cpp */,
+			);
+			path = MemoryLib;
+			sourceTree = "<group>";
+		};
+		EF37AC591C0DB13600BDE602 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				EF37AC5A1C0DB13600BDE602 /* MemoryConfig.h */,
+				EF37AC5B1C0DB13600BDE602 /* MemoryMacro.h */,
+				EF37AC5C1C0DB13600BDE602 /* MemoryNedPool.cpp */,
+				EF37AC5D1C0DB13600BDE602 /* MemoryNedPool.h */,
+				EF37AC5E1C0DB13600BDE602 /* MemoryTrackAlloc.cpp */,
+				EF37AC5F1C0DB13600BDE602 /* MemoryTrackAlloc.h */,
+				EF37AC601C0DB13600BDE602 /* MemoryTracker.cpp */,
+				EF37AC611C0DB13600BDE602 /* MemoryTracker.h */,
+				EF37AC621C0DB13600BDE602 /* nedmalloc */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		EF37AC621C0DB13600BDE602 /* nedmalloc */ = {
+			isa = PBXGroup;
+			children = (
+				EF37AC631C0DB13600BDE602 /* malloc.c.h */,
+				EF37AC641C0DB13600BDE602 /* nedmalloc.c */,
+				EF37AC651C0DB13600BDE602 /* nedmalloc.h */,
+			);
+			path = nedmalloc;
+			sourceTree = "<group>";
+		};
+		EF4CBEAC1C0C53F6009849D4 = {
+			isa = PBXGroup;
+			children = (
+				EF37AC581C0DB13600BDE602 /* MemoryLib */,
+				EF4CBEB61C0C53F6009849D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF4CBEB61C0C53F6009849D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF4CBEB51C0C53F6009849D4 /* MemoryLib-C++ */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF4CBEB41C0C53F6009849D4 /* MemoryLib-C++ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4CBEBC1C0C53F6009849D4 /* Build configuration list for PBXNativeTarget "MemoryLib-C++" */;
+			buildPhases = (
+				EF4CBEB11C0C53F6009849D4 /* Sources */,
+				EF4CBEB21C0C53F6009849D4 /* Frameworks */,
+				EF4CBEB31C0C53F6009849D4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MemoryLib-C++";
+			productName = MemoryLib;
+			productReference = EF4CBEB51C0C53F6009849D4 /* MemoryLib-C++ */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF4CBEAD1C0C53F6009849D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = zhaojun;
+				TargetAttributes = {
+					EF4CBEB41C0C53F6009849D4 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = EF4CBEB01C0C53F6009849D4 /* Build configuration list for PBXProject "MemoryLib-C++" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EF4CBEAC1C0C53F6009849D4;
+			productRefGroup = EF4CBEB61C0C53F6009849D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF4CBEB41C0C53F6009849D4 /* MemoryLib-C++ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF4CBEB11C0C53F6009849D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF37AC691C0DB13600BDE602 /* MemoryTracker.cpp in Sources */,
+				EF37AC681C0DB13600BDE602 /* MemoryTrackAlloc.cpp in Sources */,
+				EF37AC671C0DB13600BDE602 /* MemoryNedPool.cpp in Sources */,
+				EF37AC6B1C0DB13600BDE602 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EF4CBEBA1C0C53F6009849D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EF4CBEBB1C0C53F6009849D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EF4CBEBD1C0C53F6009849D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "MemoryLib-C++";
+			};
+			name = Debug;
+		};
+		EF4CBEBE1C0C53F6009849D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "MemoryLib-C++";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF4CBEB01C0C53F6009849D4 /* Build configuration list for PBXProject "MemoryLib-C++" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4CBEBA1C0C53F6009849D4 /* Debug */,
+				EF4CBEBB1C0C53F6009849D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF4CBEBC1C0C53F6009849D4 /* Build configuration list for PBXNativeTarget "MemoryLib-C++" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4CBEBD1C0C53F6009849D4 /* Debug */,
+				EF4CBEBE1C0C53F6009849D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF4CBEAD1C0C53F6009849D4 /* Project object */;
+}
